@@ -1,0 +1,120 @@
+.stock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.search-input {
+  display: flex;
+}
+
+.search-btn {
+  margin-left: 10px;
+}
+
+.stock-wrapper {
+  position: absolute;
+  top: 40px;
+  right: 93px;
+  display: flex;
+  width: 298px;
+  max-height: 350px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+
+.stock-wrapper:hover {
+  background-color: rgb(241, 241, 241);
+  cursor: pointer;
+}
+
+.stock-img {
+  width: 24px;
+  margin-right: 10px;
+}
+
+.stock input {
+  width: 300px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.date {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.date input {
+  padding: 2px;
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(241, 241, 241);
+  padding: 5px;
+  margin: 10px auto;
+  flex-wrap: wrap;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.stock-table {
+  width: 80vw;
+  max-height: 60vw;
+  overflow: auto;
+}
+
+.stock-input {
+  display: block;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+.company-info-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.company-info-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.medium {
+  width: 50px;
+  margin-right: 10px;
+}
+
+@media (max-width: 882px) {
+  .stock {
+    margin-bottom: 20px;
+  }
+}
